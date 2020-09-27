@@ -1,0 +1,39 @@
+{
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDScLWAixsVIYX9FbfXMfJlt8zhoCG3RDyMOctTJiy8JNZin2i9nGYFACVPTejkYGscTwfSu5WzNU+a1cOon9nJHqlp0kT4EV1K2WeB7U+jD2y/8DsP7QwzA1phSHw+sE6NZp36lwrtbcXntSmjsCh0m9v5v+Cxs7yiJ3vT22co5QIDAQAB",
+   "manifest_version": 2,
+   "name": "Ubuntu Black Magic Theme - Transparency",
+   "theme": {
+      "colors": {
+         "bookmark_text": [ 64, 64, 64 ],
+         "button_background": [ 64, 64, 64 ],
+         "control_background": [ 64, 64, 64 ],
+         "frame": [ 64, 64, 64 ],
+         "frame_inactive": [ 161, 161, 161 ],
+         "frame_incognito": [ 18, 18, 18 ],
+         "frame_incognito_inactive": [ 97, 97, 97 ],
+         "ntp_background": [ 255, 255, 255 ],
+         "ntp_header": [ 64, 64, 64 ],
+         "ntp_link": [ 64, 64, 64 ],
+         "ntp_section": [ 242, 242, 242 ],
+         "ntp_section_link": [ 64, 64, 64 ],
+         "ntp_section_text": [ 107, 107, 107 ],
+         "ntp_text": [ 64, 64, 64 ],
+         "tab_background_text": [ 223, 223, 223 ],
+         "tab_text": [ 0, 0, 0 ],
+         "toolbar": [ 223, 223, 223 ]
+      },
+      "images": {
+         "theme_frame": "images/frame.png",
+         "theme_tab_background": "images/tab_background.png",
+         "theme_toolbar": "images/toolbar.png"
+      },
+      "tints": {
+         "background_tab": [ -1, -1, -1 ],
+         "frame": [ -1, -1, -1 ],
+         "frame_inactive": [ -1, -1, -1 ],
+         "frame_incognito_inactive": [ -1, -1, -1 ]
+      }
+   },
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "0.1"
+}

@@ -1,0 +1,80 @@
+favorites=peppermint-settings-panel.desktop,ice.desktop,xfce4-run.desktop,gnome-search-tool.desktop,mintinstall.desktop,synaptic.desktop,xplayer.desktop,sakura.desktop,xed.desktop,nemo.desktop,firefox.desktop
+recent=peppermint-settings-panel.desktop,ice.desktop,xfce4-run.desktop,gnome-search-tool.desktop,mintinstall.desktop,synaptic.desktop,xplayer.desktop,sakura.desktop,xed.desktop,nemo.desktop,firefox.desktop
+button-title=Menu\ 
+button-icon=peppermint
+button-single-row=false
+show-button-title=true
+show-button-icon=true
+launcher-show-name=true
+launcher-show-description=false
+launcher-show-tooltip=true
+item-icon-size=2
+hover-switch-category=true
+category-show-name=true
+category-icon-size=1
+load-hierarchy=false
+recent-items-max=11
+favorites-in-recent=true
+display-recent-default=false
+position-search-alternate=true
+position-commands-alternate=false
+position-categories-alternate=true
+menu-width=385
+menu-height=456
+menu-opacity=100
+command-settings=peppermint-settings-panel
+show-command-settings=true
+command-lockscreen=lxlock
+show-command-lockscreen=true
+command-switchuser=dm-tool switch-to-greeter
+show-command-switchuser=true
+command-logout=peppermint-logout
+show-command-logout=true
+command-menueditor=menulibre
+show-command-menueditor=true
+command-profile=users-admin
+show-command-profile=true
+search-actions=7
+
+[action0]
+name=Man Pages
+pattern=#
+command=exo-open --launch TerminalEmulator man %s
+regex=false
+
+[action1]
+name=Web Search
+pattern=?
+command=exo-open --launch WebBrowser https://duckduckgo.com/?q=%u
+regex=false
+
+[action2]
+name=Wikipedia
+pattern=!w
+command=exo-open --launch WebBrowser https://en.wikipedia.org/wiki/%u
+regex=false
+
+[action3]
+name=Run in Terminal
+pattern=!
+command=exo-open --launch TerminalEmulator %s
+regex=false
+
+[action4]
+name=Open URI
+pattern=^(file|http|https):\\/\\/(.*)$
+command=exo-open \\0
+regex=true
+
+[action5]
+name=DuckDuckGo
+pattern=!d
+command=exo-open --launch WebBrowser https://duckduckgo.com/?q=%u&amp;t=peppermint
+regex=false
+
+[action6]
+name=Search the Peppermint Forum
+pattern=!p
+command=exo-open --launch WebBrowser https://duckduckgo.com/?q=!pmos+%u&amp;t=peppermint
+regex=false
+

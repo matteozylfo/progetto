@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Name=Skype Web Client
+Comment=Online Web client for Skype (Ice SSB)
+Exec=ice-firefox https://web.skype.com
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/usr/share/ice/skype-web.svg
+Categories=GTK;Network;
+MimeType=text/html;text/xml;application/xhtml_xml;
+StartupWMClass=Chromium
+StartupNotify=true
+IceFirefox=web.skype.com

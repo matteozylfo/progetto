@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Terminal
+Comment=Use the command line
+TryExec=sakura
+Exec=sakura
+Icon=lxterminal
+Type=Application
+Categories=GTK;Utility;TerminalEmulator;
+StartupNotify=true
+X-Ubuntu-Gettext-Domain=sakura
+X-XFCE-Source=file:///usr/share/applications/sakura.desktop
+Path=
+Terminal=false
